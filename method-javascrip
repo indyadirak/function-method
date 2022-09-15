@@ -1,0 +1,17 @@
+function Data()
+{
+  this.nama = ""
+  this.umur = ""
+  this.fungsi = function(salam){ // ini method
+    console.log(` saya mengucapkan ${salam} dan terima kasih`)
+  }
+  
+}
+const indy = new Data();
+const nadya = new Data();
+
+nadya.nama = "Nadya Vania Gayatri";
+indy.nama = "Indy Adira Khalfani";
+indy.fungsi("hi");
+
+console.log(nadya.nama," & ",indy.nama);
