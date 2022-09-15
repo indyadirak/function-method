@@ -10,7 +10,7 @@ function Data()
 const indy = new Data();
 const nadya = new Data();
 
-nadya.nama = "Nadya Vania Gayatri";
+nadya.nama = "Nadya aya takanisya";
 indy.nama = "Indy Adira Khalfani";
 indy.fungsi("hi");
 
